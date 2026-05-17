@@ -1,0 +1,240 @@
+{
+    "techs": [
+        "PHP",
+        "Python",
+        "Node.js",
+        "PostgreSQL"
+    ],
+    "repos": [
+        "https://github.com/virdiggg?tab=repositories&q=&type=public&language=&sort=",
+        "https://packagist.org/users/virdiggg/packages"
+    ],
+    "projects": [
+        {
+            "id": "mantan-wibu",
+            "title": "Automated Video Media Processing & Distribution Pipeline",
+            "summary": "An event-driven media automation pipeline designed to modernize the fansubbing workflow. By automating the entire technical delivery pipeline, including encoding, muxing, and distribution, the system eliminates manual bottlenecks and reduces operational workload, allowing localization teams to focus purely on human-driven creative tasks like translation and typesetting.",
+            "description": [
+                "This project is an event-driven media automation pipeline born from a personal challenge to modernize the \"Golden Era\" of fansubbing (2010–2015). Historically, media localization was bottlenecked by a rigid division of labor between creative roles (translators, timers, typesetters) and technical roles (encoders, uploaders).",
+                "Instead of replacing human translators with AI, the system preserves human-driven localization quality throughout the fansubbing workflow. Although AI can assist with subtitle translation, the localization process was intentionally kept human-supervised to preserve contextual meaning, cultural nuance, and creative intent from the original media.",
+                "The platform instead focuses on automating the entire technical delivery pipeline, including encoding, muxing, verification, and release distribution. By replacing traditionally manual technical operations with a programmatic workflow, the system significantly reduces the operational workload required for a single release, allowing staff members to focus exclusively on creative tasks such as translation, timing, and typesetting."
+            ],
+            "techStack": [
+                "FastAPI",
+                "PostgreSQL",
+                "Celery",
+                "Redis",
+                "FFmpeg",
+                "MKVToolNix",
+                "Pusher"
+            ],
+            "keyFeatures": [
+                {
+                    "title": "Automated Staff Workflow",
+                    "description": "Streamlined pipeline for torrent ingestion, asset validation, queue orchestration, and release processing."
+                },
+                {
+                    "title": "Standardized Media Handling",
+                    "description": "Programmatic management of subtitle tracks, embedded fonts, chapters, and CRC32 integrity tagging following professional fansubbing standards."
+                },
+                {
+                    "title": "Parallel Queue Processing",
+                    "description": "Robust queue-based architecture capable of processing multiple release jobs simultaneously to optimize throughput."
+                },
+                {
+                    "title": "Automated Release Distribution",
+                    "description": "Fully hands-off upload and release delivery workflow natively integrated with the Pixeldrain API."
+                },
+                {
+                    "title": "Real-time Sync & Notifications",
+                    "description": "Instant release feed synchronization for end-user dashboards alongside automated Discord bot channel notifications."
+                }
+            ],
+            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png",
+            "workflow": {
+                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png",
+                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png"
+            },
+            "screenshots": [
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-3.png"
+            ]
+        },
+        {
+            "id": "dip-pdf-generator",
+            "title": "Python-based Document Information Generator System",
+            "summary": "An automated document engine designed to streamline BPOM regulatory compliance for cosmetic registration. By replacing manual document creation with centralized relational data mapping and asynchronous background processing, the platform automates the generation of structured Dokumen Informasi Produk (DIP). The system ensures real-time revision synchronization, reduces generation turnaround times to under five minutes, and cuts cloud subscription costs through secure internal document handling.",
+            "description": [
+                "The platform automates the generation of standardized PDF documents required for BPOM regulatory compliance and client communication.",
+                "The system was designed to generate Dokumen Informasi Produk (DIP), a structured set of regulatory documents required for cosmetic product registration in Indonesia. Each document package is dynamically generated based on product, brand, and formula data while following BPOM submission standards and document structures.",
+                "Previously, staff manually created and validated documents, making revision handling highly error-prone, especially when updating formulas, product names, or brand information across multiple sections and files. The new system eliminated manual cross-checking by implementing centralized relational data mapping, ensuring all dependent document sections automatically stay synchronized after revisions.",
+                "To improve operational efficiency, the platform also introduced an asynchronous queue-based PDF generation workflow, allowing users to continue other tasks while documents are processed in the background. This significantly reduced document turnaround time to under five minutes per generation cycle.",
+                "Additionally, the system removed the dependency on manual Google Drive uploads by integrating centralized internal document handling, reducing cloud subscription costs and minimizing risks related to external file sharing and data leakage."
+            ],
+            "techStack": [
+                "Flask",
+                "PHP (Laravel)",
+                "PostgreSQL",
+                "ReactJS",
+                "Celery",
+                "Redis",
+                "FrankenPHP",
+                "Pusher"
+            ],
+            "keyFeatures": [
+                {
+                    "title": "Dynamic Data Ingestion",
+                    "description": "Web-based interface built with Laravel featuring dynamic forms for structured product and brand data input."
+                },
+                {
+                    "title": "Unified Data Core",
+                    "description": "Centralized engine that unifies data across internal systems, including formulations, raw materials, lab testing, and approval workflows."
+                },
+                {
+                    "title": "Compliance-Driven PDF Engine",
+                    "description": "Python-based backend engine designed to programmatically generate BPOM-compliant PDF documents using predefined templates."
+                },
+                {
+                    "title": "Asynchronous Queue Architecture",
+                    "description": "Queue-based system that handles batch PDF generation per section (BAB) across multiple brands and product lines simultaneously."
+                },
+                {
+                    "title": "Real-time Event Notifications",
+                    "description": "Native integration with Pusher to provide instant, real-time alerts once background document generation is complete."
+                },
+                {
+                    "title": "Dynamic Document Consolidation",
+                    "description": "Advanced PDF merging capability that consolidates multiple independent document sections into a single, cohesive file per product."
+                },
+                {
+                    "title": "Secure-by-Design PDF Viewer",
+                    "description": "Built-in web viewer with restricted printing, downloading, copying, and browser shortcut protections to mitigate unauthorized distribution."
+                },
+                {
+                    "title": "Dual-Target Compliance Delivery",
+                    "description": "Versatile distribution engine supporting both formal BPOM regulatory submissions and branded, client-facing documentation."
+                }
+            ],
+            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/architecture-dip.drawio.png",
+            "workflow": {
+                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-business-dip.drawio.png",
+                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png"
+            },
+            "note": "Confidentiality Notice: Due to NDA and regulatory compliance (BPOM data privacy), specific organization, product, and brand names, also production credentials have been redacted. Screenshots demonstrate the staging environment with mocked data.",
+            "screenshots": [
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-3.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-4.png"
+            ]
+        },
+        {
+            "id": "internal-monitoring-dashboard",
+            "title": "Log & Performance Tracker",
+            "summary": "A lightweight, self-hosted observability dashboard designed to centralize internal system monitoring without the overhead of external platforms like Grafana or the ELK Stack. The system consolidates scattered telemetry—including server health, API performance, application exceptions, database activity, and local office network connectivity—into a unified interface. By providing real-time status tracking and visual trend analysis, the platform significantly improves visibility into system reliability, streamlining troubleshooting and operational performance management.",
+            "description": [
+                "The platform was created to simplify internal monitoring workflows by consolidating previously scattered system information, including server health, API performance, application errors, database activity, and local network connectivity, into a single lightweight interface without relying on external observability platforms such as Grafana or ELK Stack.",
+                "The dashboard improved visibility into system reliability and operational issues by providing centralized monitoring, real-time status tracking, and visual summaries for troubleshooting and performance analysis."
+            ],
+            "techStack": [
+                "PHP (CodeIgniter 3)",
+                "PostgreSQL",
+                "Shell scripts"
+            ],
+            "keyFeatures": [
+                {
+                    "title": "Unified Log Auditing",
+                    "description": "Centralized monitoring aggregate for Apache web server errors, application-level exceptions, and database access logs."
+                },
+                {
+                    "title": "API & Ingestion Telemetry",
+                    "description": "Real-time tracking of API response latency, active file upload workflows, and HTTP status code distribution."
+                },
+                {
+                    "title": "Infrastructure Health Tracking",
+                    "description": "Lightweight resource monitoring for CPU load, memory utilization, disk space availability, and host server uptime."
+                },
+                {
+                    "title": "Network Boundary Monitoring",
+                    "description": "Localized connectivity tracking for office WiFi networks and internal gateway availability statuses."
+                },
+                {
+                    "title": "Anomalies & Trend Analytics",
+                    "description": "Visual diagnostic summaries and filtering tools to pinpoint daily error trends, bottlenecked endpoints, and operational anomalies."
+                },
+                {
+                    "title": "Hybrid Ingestion Engine",
+                    "description": "Background log harvesting and automated stream processing using native shell scripts integrated into CodeIgniter 3."
+                }
+            ],
+            "note": "Confidentiality Notice: Project is internal and confidential. Only UI screenshots (with dummy data) are available for presentation purposes.",
+            "screenshots": [
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-3.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-4.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-5.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-6.png"
+            ]
+        },
+        {
+            "id": "file-sync",
+            "title": "Local File Sharing System",
+            "summary": "An offline-first desktop application engineered for secure, low-cost file sharing and backup across a local network without internet dependencies or cloud infrastructure. Designed specifically for internal R&D formulation teams, the system enables seamless workstation synchronization entirely within an isolated local network environment. Built as a tailored, zero-maintenance alternative to complex self-hosted cloud suites, it prioritizes absolute data privacy, rapid local transfers, and operational simplicity.",
+            "description": [
+                "FileSync is a lightweight desktop application developed to enable secure file sharing and backup over a local network without relying on internet connectivity or third-party cloud infrastructure. The system was designed for internal operational use, particularly to help the R&D (formulation) team back up and synchronize files across office workstations.",
+                "Although self-hosted cloud platforms already exist, the project was intentionally developed as a custom offline-first solution to meet the company’s requirement for a fully local, low-cost, and easy-to-use file synchronization system that could operate entirely within the internal network environment."
+            ],
+            "techStack": [
+                "Node.js",
+                "Electron"
+            ],
+            "keyFeatures": [
+                {
+                    "title": "LAN-Bound Ingestion Engine",
+                    "description": "Enables high-speed, secure file uploads and asset synchronization to a centralized storage server over local area networks."
+                },
+                {
+                    "title": "Isolated Multi-Tenant Clustering",
+                    "description": "Backend directory architecture that dynamically organizes, maps, and isolates stored assets inside dedicated per-user workspace clusters."
+                },
+                {
+                    "title": "Native Desktop Architecture",
+                    "description": "Lightweight, cross-platform desktop client engineered entirely with Node.js and Electron, intentionally bypassing third-party framework overhead for maximum efficiency."
+                }
+            ],
+            "screenshots": [
+                "https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/file-sync/file-sync.png"
+            ]
+        }
+    ],
+    "openSource": [
+        {
+            "id": "ci-3-mod",
+            "title": "CodeIgniter 3 Modded",
+            "summary": "Customized and modernized CodeIgniter 3 distribution with PHP 8.3 compatibility adjustments, Composer integration, migration support, enhanced logging utilities, query profiling, and developer-focused tooling inspired by modern PHP frameworks.",
+            "githubLink": "https://github.com/virdiggg/codeigniter-3-modded"
+        },
+        {
+            "id": "crc32-py",
+            "title": "CRC32-PY",
+            "summary": "Lightweight Python utility for MKV remuxing, subtitle and audio track restructuring, attachment cleanup, and CRC32-standardized media packaging workflows.",
+            "githubLink": "https://github.com/virdiggg/crc32-py"
+        },
+        {
+            "id": "pyinstaller-generator",
+            "title": "PyInstaller Generator",
+            "summary": "Utility script that automates complex PyInstaller command generation, including hidden imports, embedded assets, dependency handling, and additional packaging arguments for Python executable builds.",
+            "githubLink": "https://github.com/virdiggg/pyinstaller_generator"
+        },
+        {
+            "id": "header-ci-3",
+            "title": "HTTP Header for CodeIgniter 3",
+            "summary": "Helmet.js-inspired security header utility for CodeIgniter 3 that simplifies implementation of CSP, HSTS, clickjacking protection, COOP/COEP, and other modern browser security policies for legacy PHP applications.",
+            "githubLink": "https://github.com/virdiggg/header-ci3"
+        }
+    ]
+}

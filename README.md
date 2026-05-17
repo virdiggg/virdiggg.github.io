@@ -213,6 +213,23 @@ Customized and modernized CodeIgniter 3 distribution with:
 
 ---
 
+## Header CodeIgniter 3
+
+Security-focused HTTP header utility for CodeIgniter 3 inspired by Helmet.js, providing centralized management of modern browser security headers for legacy PHP applications including:
+
+- Content Security Policy (CSP)
+- HSTS
+- X-Frame-Options
+- COOP / COEP
+- Referrer Policy
+- Permissions Policy
+- Clickjacking protection
+- MIME sniffing protection
+
+🔗 https://github.com/virdiggg/header-ci3
+
+---
+
 ## CRC32-PY
 
 Lightweight Python utility for:
