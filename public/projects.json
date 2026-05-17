@@ -219,6 +219,12 @@
             "githubLink": "https://github.com/virdiggg/codeigniter-3-modded"
         },
         {
+            "id": "header-ci3",
+            "title": "HTTP Header for CodeIgniter 3",
+            "summary": "Helmet.js-inspired security header utility for CodeIgniter 3 that simplifies implementation of CSP, HSTS, clickjacking protection, COOP/COEP, and other modern browser security policies for legacy PHP applications.",
+            "githubLink": "https://github.com/virdiggg/header-ci3"
+        },
+        {
             "id": "crc32-py",
             "title": "CRC32-PY",
             "summary": "Lightweight Python utility for MKV remuxing, subtitle and audio track restructuring, attachment cleanup, and CRC32-standardized media packaging workflows.",
@@ -229,12 +235,6 @@
             "title": "PyInstaller Generator",
             "summary": "Utility script that automates complex PyInstaller command generation, including hidden imports, embedded assets, dependency handling, and additional packaging arguments for Python executable builds.",
             "githubLink": "https://github.com/virdiggg/pyinstaller_generator"
-        },
-        {
-            "id": "header-ci-3",
-            "title": "HTTP Header for CodeIgniter 3",
-            "summary": "Helmet.js-inspired security header utility for CodeIgniter 3 that simplifies implementation of CSP, HSTS, clickjacking protection, COOP/COEP, and other modern browser security policies for legacy PHP applications.",
-            "githubLink": "https://github.com/virdiggg/header-ci3"
         }
     ]
 }
