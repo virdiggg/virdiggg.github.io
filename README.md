@@ -1,131 +1,268 @@
-# Hi, I'm Virdi 👋
-### Backend Engineer & System Architect
+# Hi, I'm Virdi Gunawan 👋
 
-A software developer specializing in backend systems, cross-platform applications, high-performance architectures, and data-driven automation. I focus on building scalable, event-driven pipelines, optimizing database performance, and creating developer-centric tools.
+Backend-focused software engineer passionate about building scalable internal systems, automation platforms, and developer tooling.
 
----
-
-## 🛠️ Core Technologies
-
-Tags and frameworks I frequently work with:
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+I enjoy designing systems that reduce operational overhead, automate repetitive workflows, and improve reliability through practical engineering solutions.
 
 ---
 
-## 🚀 Featured Projects
+## Tech Stack
 
-### 1. Automated Video Media Processing & Distribution Pipeline (`mantan-wibu`)
-An event-driven media automation pipeline designed to modernize media localization workflows. By automating the technical delivery pipeline (encoding, muxing, verification, and distribution), it reduces operational overhead so teams can focus entirely on creative tasks like translation and typesetting.
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-* **Tech Stack:** `FastAPI`, `PostgreSQL`, `Celery`, `Redis`, `FFmpeg`, `MKVToolNix`, `Pusher`
-* **Key Features:**
-  * **Automated Staff Workflow:** Ingestion, asset validation, and release processing.
-  * **Standardized Media Handling:** Programmatic subtitle/font embedding and CRC32 integrity tagging.
-  * **Parallel Queue Processing:** Robust queue-based architecture for simultaneous job execution.
-  * **Automated Release Distribution:** Hands-off upload natively integrated with the Pixeldrain API.
-  * **Real-time Sync:** Instant dashboard feeds and automated Discord notifications.
+---
 
-<details>
-<summary><b>📐 Architecture & Screenshots (Click to expand)</b></summary>
+## Open Source & Packages
 
-#### System Architecture & Workflow
-* **System Architecture:**
-  ![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png)
-* **Business Workflow:**
-  ![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png)
-* **System Workflow:**
-  ![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png)
+- 🌐 Portfolio  
+  https://vercel-portfolio-iota-sage.vercel.app/
 
-#### Interface Previews
-| User Dashboard | Staff Management |
+- 💻 GitHub Repositories  
+  https://github.com/virdiggg?tab=repositories&q=&type=public&language=&sort=
+
+- 📦 Packagist Packages  
+  https://packagist.org/users/virdiggg/packages
+
+---
+
+# Featured Projects
+
+---
+
+## Automated Video Media Processing & Distribution Pipeline
+
+### Overview
+
+An event-driven media automation pipeline designed to modernize the fansubbing workflow.
+
+By automating the entire technical delivery pipeline — including encoding, muxing, verification, and release distribution — the system eliminates manual bottlenecks and significantly reduces operational workload, allowing localization teams to focus entirely on human-driven creative tasks such as translation and typesetting.
+
+### Key Highlights
+
+- Automated torrent ingestion and release orchestration
+- Parallel queue-based media processing
+- Programmatic subtitle, font, chapter, and CRC32 handling
+- Integrated Pixeldrain release distribution
+- Real-time synchronization and Discord notifications
+
+### Tech Stack
+
+`FastAPI` • `PostgreSQL` • `Celery` • `Redis` • `FFmpeg` • `MKVToolNix` • `Pusher`
+
+### System Architecture
+
+![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png)
+
+### Workflow
+
+#### Business Workflow
+
+![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png)
+
+#### System Workflow
+
+![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png)
+
+### Screenshots
+
+| User Feed | User Feed |
 |---|---|
-| ![User 1](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-1.png) | ![Staff 1](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-1.png) |
-| ![User 2](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-2.png) | ![Staff 2](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-2.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-2.png) |
 
-</details>
+| Staff Dashboard | Staff Dashboard |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-2.png) |
 
----
-
-### 2. Document Information Generator System (`dip-pdf-generator`)
-An automated document engine built to streamline BPOM regulatory compliance for cosmetic registration. It replaces manual document creation with centralized relational data mapping and asynchronous background processing to generate structured Dokumen Informasi Produk (DIP).
-
-* **Tech Stack:** `Flask`, `PHP (Laravel)`, `PostgreSQL`, `ReactJS`, `Celery`, `Redis`, `FrankenPHP`, `Pusher`
-* **Key Features:**
-  * **Unified Data Core & Ingestion:** Dynamic forms that centralize formulations, lab testing, and approvals.
-  * **Compliance-Driven PDF Engine:** Python backend programmatically generating BPOM-compliant PDF layouts.
-  * **Asynchronous Queue Architecture:** Background batch generation reducing turnaround time to < 5 minutes.
-  * **Secure-by-Design Viewer:** Built-in web viewer with restricted printing/downloading to prevent data leaks.
-
-> 🔒 **Confidentiality Notice:** Due to NDA and regulatory compliance (BPOM data privacy), organization/brand names have been redacted. Screenshots demonstrate a staging environment with mocked data.
-
-<details>
-<summary><b>📐 Architecture & Screenshots (Click to expand)</b></summary>
-
-#### System Architecture & Workflow
-* **System Architecture:**
-  ![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/architecture-dip.drawio.png)
-* **System Workflow:**
-  ![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png)
-
-#### Interface Previews
-![DIP Step 1](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-1.png)
-![DIP Step 2](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-2.png)
-</details>
+| Staff Dashboard with Queue Running |
+|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-3.png) |
 
 ---
 
-### 3. Log & Performance Tracker (`internal-monitoring-dashboard`)
-A lightweight, self-hosted observability dashboard designed to centralize internal system monitoring (server health, API latency, application exceptions, DB logs) without the heavy overhead of platforms like Grafana or ELK Stack.
+## Python-based Document Information Generator System
 
-* **Tech Stack:** `PHP (CodeIgniter 3)`, `PostgreSQL`, `Shell scripts`
-* **Key Features:**
-  * **Unified Log Auditing:** Aggregates server errors, application exceptions, and database access logs.
-  * **Infrastructure Telemetry:** Lightweight monitoring for CPU load, memory, disk, and network boundaries.
-  * **Anomalies Analytics:** Visual filtering tools to quickly pinpoint daily error trends and bottlenecked endpoints.
+### Overview
 
-> 🔒 **Confidentiality Notice:** Project is internal and confidential. UI screenshots utilize dummy data for presentation purposes.
+An automated document engine designed to streamline BPOM regulatory compliance for cosmetic registration.
 
-<details>
-<summary><b>📷 Screenshots (Click to expand)</b></summary>
+The system dynamically generates structured Dokumen Informasi Produk (DIP) using centralized relational data mapping and asynchronous background processing, significantly reducing manual revision overhead and generation turnaround times.
 
-![Monitoring 1](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-1.png)
-![Monitoring 2](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-2.png)
-</details>
+### Key Highlights
+
+- Dynamic BPOM-compliant PDF generation
+- Centralized relational data synchronization
+- Queue-based asynchronous processing
+- Secure internal document handling
+- Real-time Pusher notifications
+- Dynamic PDF merging engine
+
+### Tech Stack
+
+`Flask` • `Laravel` • `PostgreSQL` • `ReactJS` • `Celery` • `Redis` • `FrankenPHP` • `Pusher`
+
+### System Architecture
+
+![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/architecture-dip.drawio.png)
+
+### Workflow
+
+#### Business Workflow
+
+![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-business-dip.drawio.png)
+
+#### System Workflow
+
+![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png)
+
+### Screenshots
+
+| PDF Viewer | PDF Password |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-2.png) |
+
+| Dashboard | Master Formula |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-4.png) |
+
+> **Confidentiality Notice**  
+> Due to NDA and BPOM compliance requirements, organization names, product names, and production credentials have been redacted. Screenshots use staging data only.
 
 ---
 
-### 4. Local File Sharing System (`file-sync`)
-An offline-first desktop application engineered for secure, low-cost file sharing and backup across a local network (LAN) without internet dependencies, specifically designed for internal R&D formulation teams.
+## Log & Performance Tracker
 
-* **Tech Stack:** `Node.js`, `Electron`
-* **Key Features:**
-  * **LAN-Bound Ingestion:** High-speed secure uploads to a centralized local storage server.
-  * **Isolated Clustering:** Dynamically organizes and isolates stored assets inside dedicated per-user workspace clusters.
-  * **Native Desktop App:** Ultra-lightweight cross-platform desktop client bypassing third-party web overhead.
+### Overview
 
-<details>
-<summary><b>📷 Screenshots (Click to expand)</b></summary>
+A lightweight self-hosted observability dashboard created to centralize internal monitoring without relying on external platforms like Grafana or ELK Stack.
 
-![File Sync](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/file-sync/file-sync.png)
-</details>
+The system consolidates infrastructure telemetry, application logs, API performance, and network monitoring into a single operational dashboard.
+
+### Key Highlights
+
+- Unified application and database log auditing
+- API latency and upload telemetry tracking
+- Infrastructure resource monitoring
+- Internal network availability monitoring
+- Visual anomaly and trend analytics
+
+### Tech Stack
+
+`PHP (CodeIgniter 3)` • `PostgreSQL` • `Shell Scripts`
+
+### Screenshots
+
+| Monitoring | Error Analytics |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-2.png) |
+
+| API Tracking | Trend Dashboard |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-4.png) |
+
+| Infrastructure | Connectivity |
+|---|---|
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-5.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-6.png) |
+
+> **Confidentiality Notice**  
+> This project is internal and confidential. Screenshots use dummy data for demonstration purposes.
 
 ---
 
-## 🔓 Open Source Contributions
+## Local File Sharing System
 
-Tools and utilities I've built and maintained for the developer community:
+### Overview
 
-* 📦 **[CodeIgniter 3 Modded](https://github.com/virdiggg/codeigniter-3-modded)** - A modernized CI3 distribution with PHP 8.3 compatibility, Composer integration, database migrations, enhanced logging, and query profiling.
-* 🐍 **[CRC32-PY](https://github.com/virdiggg/crc32-py)** - Lightweight Python utility for MKV remuxing, subtitle/audio track restructuring, and CRC32-standardized media packaging.
-* 🔨 **[PyInstaller Generator](https://github.com/virdiggg/pyinstaller_generator)** - Automates complex PyInstaller command generation including hidden imports, asset embedding, and dependency arguments.
+An offline-first desktop application designed for secure local-network file sharing and backup without internet dependencies or cloud infrastructure.
+
+Built specifically for internal R&D operations, the platform prioritizes simplicity, privacy, and high-speed LAN synchronization.
+
+### Key Highlights
+
+- High-speed LAN file synchronization
+- Isolated per-user storage architecture
+- Lightweight native desktop experience
+- Zero cloud dependency
+
+### Tech Stack
+
+`Node.js` • `Electron`
+
+### Screenshot
+
+![FileSync](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/file-sync/file-sync.png)
 
 ---
 
-## 🔗 Connect With Me
+# Open Source Projects
 
-* 📂 **GitHub Profile:** [@virdiggg](https://github.com/virdiggg?tab=repositories)
-* 📦 **Packagist Packages:** [virdiggg on Packagist](https://packagist.org/users/virdiggg/packages)
+## CodeIgniter 3 Modded
+
+Customized and modernized CodeIgniter 3 distribution with:
+
+- PHP 8.3 compatibility adjustments
+- Composer integration
+- Migration support
+- Enhanced logging utilities
+- Query profiling
+- Developer tooling inspired by modern PHP frameworks
+
+🔗 https://github.com/virdiggg/codeigniter-3-modded
+
+---
+
+## CRC32-PY
+
+Lightweight Python utility for:
+
+- MKV remuxing
+- Subtitle restructuring
+- Audio track management
+- Attachment cleanup
+- CRC32-standardized packaging workflows
+
+🔗 https://github.com/virdiggg/crc32-py
+
+---
+
+## PyInstaller Generator
+
+Utility script that automates complex PyInstaller command generation including:
+
+- Hidden imports
+- Embedded assets
+- Dependency packaging
+- Additional executable build arguments
+
+🔗 https://github.com/virdiggg/pyinstaller_generator
+
+---
+
+# Philosophy
+
+I enjoy building systems that:
+
+- Reduce repetitive operational work
+- Improve reliability through automation
+- Simplify complex internal workflows
+- Prioritize practical engineering over unnecessary complexity
+
+---
+
+## Contact
+
+<p align="left">
+<a href="mailto:virdigunawann@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="mailto:virdigunawan@proton.me">
+  <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/virdi-gunawan-a61026125/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+</p>
