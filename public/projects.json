@@ -50,17 +50,17 @@
                     "description": "Instant release feed synchronization for end-user dashboards alongside automated Discord bot channel notifications."
                 }
             ],
-            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png",
+            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/architecture-fansub.drawio.png",
             "workflow": {
-                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png",
-                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png"
+                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/workflow-business-fansub.drawio.png",
+                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/workflow-sistem-fansub.drawio.png"
             },
             "screenshots": [
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/user-1.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/user-2.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-1.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-2.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-3.png"
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/user-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/user-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/staff-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/staff-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/fansub/staff-3.png"
             ]
         },
         {
@@ -118,17 +118,17 @@
                     "description": "Versatile distribution engine supporting both formal BPOM regulatory submissions and branded, client-facing documentation."
                 }
             ],
-            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/architecture-dip.drawio.png",
+            "systemArchitecture": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/architecture-dip.drawio.png",
             "workflow": {
-                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/workflow-business-dip.drawio.png",
-                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png"
+                "business": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/workflow-business-dip.drawio.png",
+                "system": "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/workflow-sistem-dip.drawio.png"
             },
             "note": "Confidentiality Notice: Due to NDA and regulatory compliance (BPOM data privacy), specific organization, product, and brand names, also production credentials have been redacted. Screenshots demonstrate the staging environment with mocked data.",
             "screenshots": [
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-1.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-2.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-3.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-4.png"
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/dip-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/dip-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/dip-3.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/dip/dip-4.png"
             ]
         },
         {
@@ -172,12 +172,12 @@
             ],
             "note": "Confidentiality Notice: Project is internal and confidential. Only UI screenshots (with dummy data) are available for presentation purposes.",
             "screenshots": [
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-1.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-2.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-3.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-4.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-5.png",
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-6.png"
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-1.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-2.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-3.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-4.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-5.png",
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/monitoring/monitoring-6.png"
             ]
         },
         {
@@ -207,7 +207,7 @@
                 }
             ],
             "screenshots": [
-                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/file-sync/file-sync.png"
+                "https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/main/public/images/file-sync/file-sync.png"
             ]
         }
     ],
