@@ -15,13 +15,13 @@ export default function Home() {
     };
 
     return (
-        <main className="max-w-5xl mx-auto px-6 py-12 text-zinc-800">
+        <main className="max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12 text-zinc-800">
             {/* Header */}
-            <header className="mb-16">
+            <header className="mb-10 sm:mb-16 max-w-3xl">
                 <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl text-zinc-900">
                     Virdi Gunawan
                 </h1>
-                <p className="mt-4 text-xl text-zinc-600 font-medium">
+                <p className="mt-4 text-base sm:text-xl text-zinc-600 font-medium">
                     Backend Specialist & Systems Architect
                 </p>
 
@@ -51,7 +51,7 @@ export default function Home() {
                                     href={url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-zinc-600 hover:text-blue-600 text-xs font-medium transition inline-flex items-center gap-1 underline decoration-zinc-300 hover:decoration-blue-600"
+                                    className="break-all text-zinc-600 hover:text-blue-600 text-xs font-medium hover:shadow-md transition-all active:scale-[0.99] inline-flex items-center gap-1 underline decoration-zinc-300 hover:decoration-blue-600"
                                 >
                                     {getRepoLabel(url)}
                                     <svg className="w-3 h-3 opacity-70" fill="none" viewBox="0 0 24 24" strokeWidth="2.5" stroke="currentColor">
@@ -65,15 +65,15 @@ export default function Home() {
             </header>
 
             {/* Projects Section */}
-            <section className="mb-16">
+            <section className="mb-10 sm:mb-16">
                 <h2 className="text-2xl font-bold mb-6 border-b border-zinc-200 pb-2 text-zinc-900">Projects</h2>
-                <div className="grid gap-6 md:grid-cols-2">
+                <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
                     {projects.map((project) => (
                         <div 
                             key={project.id} 
-                            className="p-6 rounded-xl border border-zinc-200 bg-white shadow-sm hover:shadow-md hover:border-blue-300 transition-all duration-200"
+                            className="p-5 sm:p-6 rounded-xl border border-zinc-200 bg-white shadow-sm hover:shadow-md hover:border-blue-300 transition-all duration-200"
                         >
-                            <h3 className="text-xl font-bold mb-2 text-zinc-900 group-hover:text-blue-600">
+                            <h3 className="text-lg sm:text-xl font-bold mb-2 text-zinc-900 group-hover:text-blue-600 line-clamp-2">
                                 {project.title}
                             </h3>
                             <p className="text-zinc-600 text-sm mb-4 line-clamp-2 leading-relaxed">
@@ -108,7 +108,7 @@ export default function Home() {
                 <h2 className="text-2xl font-bold mb-6 border-b border-zinc-200 pb-2 text-zinc-900">Open Source Contributions</h2>
                 <div className="space-y-4">
                     {openSource.map((os) => (
-                        <div key={os.id} className="p-6 rounded-xl border border-zinc-200 bg-white shadow-sm">
+                        <div key={os.id} className="p-5 sm:p-6 rounded-xl border border-zinc-200 bg-white shadow-sm">
                             <h3 className="text-lg font-bold mb-1 text-zinc-900">{os.title}</h3>
                             <p className="text-zinc-600 text-sm mb-4 leading-relaxed">{os.summary}</p>
                             <a
