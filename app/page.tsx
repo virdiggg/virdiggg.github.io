@@ -10,6 +10,7 @@ export default function Home() {
 
     const getRepoLabel = (url: string) => {
         if (url.includes('github.com')) return 'GitHub Profile';
+        if (url.includes('linkedin.com')) return 'LinkedIn Profile';
         if (url.includes('packagist.org')) return 'Packagist (PHP)';
         return 'Repository';
     };
