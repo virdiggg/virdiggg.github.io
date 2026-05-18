@@ -231,6 +231,12 @@
             "githubLink": "https://github.com/virdiggg/crc32-py"
         },
         {
+            "id": "merge-files",
+            "title": "Merge Files",
+            "summary": "Production-oriented PHP document merging utility that consolidates mixed file formats—including DOC, DOCX, XLS, XLSX, images, and PDFs—into a unified PDF output. Features automatic Ghostscript-based PDF normalization to ensure compatibility with legacy PHP PDF libraries such as FPDF, FPDI, and mPDF when handling newer PDF versions.",
+            "githubLink": "https://github.com/virdiggg/merge-files"
+        },
+        {
             "id": "pyinstaller-generator",
             "title": "PyInstaller Generator",
             "summary": "Utility script that automates complex PyInstaller command generation, including hidden imports, embedded assets, dependency handling, and additional packaging arguments for Python executable builds.",

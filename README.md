@@ -230,6 +230,31 @@ Security-focused HTTP header utility for CodeIgniter 3 inspired by Helmet.js, pr
 
 ---
 
+## Merge Files
+
+Production-oriented PHP document merging utility designed for real-world compatibility handling. Supports merging multiple file formats—including DOC, DOCX, XLS, XLSX, images, and PDFs—into a unified PDF output while automatically normalizing incompatible PDF versions through Ghostscript preprocessing to ensure compatibility with legacy PHP PDF libraries such as FPDF, FPDI, and mPDF.
+
+Key capabilities include:
+
+- Mixed document ingestion pipeline
+- Automatic PDF version normalization
+- Ghostscript-based compatibility preprocessing
+- Support for legacy PHP PDF ecosystems
+- Unified PDF generation workflow
+- Image-to-PDF conversion handling
+- Multi-source document consolidation
+
+Supported file formats:
+
+- DOC / DOCX
+- XLS / XLSX
+- JPG / JPEG / PNG
+- PDF
+
+🔗 https://github.com/virdiggg/merge-files
+
+---
+
 ## CRC32-PY
 
 Lightweight Python utility for:
