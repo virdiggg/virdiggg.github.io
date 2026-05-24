@@ -12,6 +12,7 @@ export default function Home() {
         if (url.includes('github.com')) return 'GitHub Profile';
         if (url.includes('linkedin.com')) return 'LinkedIn Profile';
         if (url.includes('packagist.org')) return 'Packagist (PHP)';
+        if (url.includes('github.io')) return 'GitHub.io';
         return 'Repository';
     };
 
