@@ -54,31 +54,31 @@ By automating the entire technical delivery pipeline — including encoding, mux
 
 ### System Architecture
 
-![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png)
+![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/architecture-fansub.drawio.png)
 
 ### Workflow
 
 #### Business Workflow
 
-![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png)
+![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/workflow-business-fansub.drawio.png)
 
 #### System Workflow
 
-![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png)
+![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/workflow-sistem-fansub.drawio.png)
 
 ### Screenshots
 
 | User Feed | User Feed |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/user-2.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/user-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/user-2.png) |
 
 | Staff Dashboard | Staff Dashboard |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-2.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-2.png) |
 
 | Staff Dashboard with Queue Running |
 |---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/fansub/staff-3.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/fansub/staff-3.png) |
 
 ---
 
@@ -105,27 +105,27 @@ The system dynamically generates structured Dokumen Informasi Produk (DIP) using
 
 ### System Architecture
 
-![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/architecture-dip.drawio.png)
+![Architecture](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/architecture-dip.drawio.png)
 
 ### Workflow
 
 #### Business Workflow
 
-![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-business-dip.drawio.png)
+![Business Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/workflow-business-dip.drawio.png)
 
 #### System Workflow
 
-![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png)
+![System Workflow](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/workflow-sistem-dip.drawio.png)
 
 ### Screenshots
 
 | PDF Viewer | PDF Password |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-2.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-2.png) |
 
 | Dashboard | Master Formula |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/dip/dip-4.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/dip/dip-4.png) |
 
 > **Confidentiality Notice**  
 > Due to NDA and BPOM compliance requirements, organization names, product names, and production credentials have been redacted. Screenshots use staging data only.
@@ -156,15 +156,15 @@ The system consolidates infrastructure telemetry, application logs, API performa
 
 | Monitoring | Error Analytics |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-2.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-1.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-2.png) |
 
 | API Tracking | Trend Dashboard |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-4.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-3.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-4.png) |
 
 | Infrastructure | Connectivity |
 |---|---|
-| ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-5.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/monitoring/monitoring-6.png) |
+| ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-5.png) | ![](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/monitoring/monitoring-6.png) |
 
 > **Confidentiality Notice**  
 > This project is internal and confidential. Screenshots use dummy data for demonstration purposes.
@@ -192,7 +192,7 @@ Built specifically for internal R&D operations, the platform prioritizes simplic
 
 ### Screenshot
 
-![FileSync](https://raw.githubusercontent.com/virdiggg/virdiggg-vercel/refs/heads/master/public/images/file-sync/file-sync.png)
+![FileSync](https://raw.githubusercontent.com/virdiggg/virdiggg.github.io/refs/heads/master/public/images/file-sync/file-sync.png)
 
 ---
 
