@@ -217,7 +217,7 @@
         {
             "id": "ci-3-mod",
             "title": "CodeIgniter 3 Modded",
-            "summary": "Customized and modernized CodeIgniter 3 distribution with PHP 8.3 compatibility adjustments, Composer integration, migration support, enhanced logging utilities, query profiling, and developer-focused tooling inspired by modern PHP frameworks.",
+            "summary": "Customized and modernized CodeIgniter 3 distribution with PHP 8.3 compatibility adjustments, Composer integration, migration support, enhanced logging utilities, query profiling, new async-ish PostgreSQL driver, and developer-focused tooling inspired by modern PHP frameworks.",
             "githubLink": "https://github.com/virdiggg/codeigniter-3-modded"
         },
         {

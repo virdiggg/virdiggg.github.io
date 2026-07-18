@@ -207,6 +207,7 @@ Customized and modernized CodeIgniter 3 distribution with:
 - Migration support
 - Enhanced logging utilities
 - Query profiling
+- Async-ish PostgreSQL query support
 - Developer tooling inspired by modern PHP frameworks
 
 🔗 https://github.com/virdiggg/codeigniter-3-modded
