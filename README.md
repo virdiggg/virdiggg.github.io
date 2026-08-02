@@ -202,7 +202,7 @@ Built specifically for internal R&D operations, the platform prioritizes simplic
 
 Customized and modernized CodeIgniter 3 distribution with:
 
-- PHP 8.3 compatibility adjustments
+- PHP 8.4 compatibility adjustments
 - Composer integration
 - Migration support
 - Enhanced logging utilities
