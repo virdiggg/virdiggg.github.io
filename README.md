@@ -202,13 +202,15 @@ Built specifically for internal R&D operations, the platform prioritizes simplic
 
 Customized and modernized CodeIgniter 3 distribution with:
 
-- PHP 8.4 compatibility adjustments
+- PHP 8.5 compatibility adjustments
 - Composer integration
 - Migration support
 - Enhanced logging utilities
 - Query profiling
 - Async-ish PostgreSQL query support
 - Developer tooling inspired by modern PHP frameworks
+- Pusher and Redis integration
+- Blade-like templating
 
 🔗 https://github.com/virdiggg/codeigniter-3-modded
 
